@@ -19,7 +19,6 @@ export const imageVariationUseCase = async( originalImage:string ):Promise<Gener
             })
         });
 
-        console.log('Informacion directa de la respuesta en el USE CASE: ', response);
         const { url } = await response.json();
 
         return {

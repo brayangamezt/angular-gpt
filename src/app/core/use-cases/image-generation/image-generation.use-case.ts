@@ -21,7 +21,6 @@ export const imageGenarationUseCase = async( prompt:string, originalImage?:strin
             })
         });
 
-        console.log('Informacion directa de la respuesta en el USE CASE: ', response);
         const { url } = await response.json();
 
         return {
