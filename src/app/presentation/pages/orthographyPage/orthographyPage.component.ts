@@ -30,7 +30,6 @@ export default class OrthographyPageComponent {
          this.messages.update( (previusMessages)=> [...previusMessages, { isGpt:false, text:prompt }] );
          this.openAiService.checkOrtography( prompt ).subscribe({
             next: response => { 
-                console.log(response); 
                 this.isLoading.set(false);
                 this.messages.update( prev =>[
                     ...prev,

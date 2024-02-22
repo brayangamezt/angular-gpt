@@ -5,17 +5,6 @@ import { Message } from '../../../interfaces';
 import { ChatMessageComponent, MyMessageComponent, TypingLoaderComponent, TextMessageBoxComponent, GptMessageEditableImageComponent } from '../../components';
 import { OpenaiService } from '../../services/openai.service';
 
-/*
-{
-        isGpt:true,
-        text:'Imagen anime generada',
-        imageInfo:{
-            alt:'Dummy image',
-            url:'http://localhost:3000/gpt/image-generation/1708326135596.png'
-        }
-    }
-*/
-
 @Component({
     selector: 'app-image-tunning-page',
     standalone: true,

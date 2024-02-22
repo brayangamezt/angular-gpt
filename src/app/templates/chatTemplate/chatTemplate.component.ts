@@ -24,10 +24,4 @@ export class ChatTemplateComponent {
          console.log('Recibiendo el texto desde el hijo: ', prompt);
     }
 
-    // handleMessageWithFile(prompt:TextMessageEvent){
-    //      console.log('Recibiendo el texto desde el hijo: ', prompt);
-    // }
-
-    // handleMessageWithSelect(event:TextMessageBoxEvent){}
-
  }
